@@ -57,3 +57,11 @@ HTML elements have <strong> 3 parts</strong>;
 - Divs are better as the main frame, since they are like the building blocks. Spans can be used for the sake of styling.
 - classes (.class) are more general.
 - ids  (#id) are more unique
+- if you are using an anchor `<a>`, the order for the css sytling should be:
+    - a: link {color:black;}
+    - a:visited {color:pink;}
+    - a:hover {color:yellow;}
+    - a:active {color:blue;}
+    for being able to see all the actions active. In here, the link will be in black as default and it will become yellow when there is a mouse hovering over it. While it is being clicking down, the color will be blue and it will turn to pink when it is clicked once. 
+
+    
