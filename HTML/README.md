@@ -38,3 +38,9 @@
 
  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#main_root">This mozilla article </a> lists a huge collection of HTML tags.
 
+HTML elements have <strong> 3 parts</strong>;
+        <ul>
+          <li>openning tag </li>
+          <li>content</li>
+          <li>closing tag</li>
+        </ul>
