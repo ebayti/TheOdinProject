@@ -62,6 +62,6 @@ HTML elements have <strong> 3 parts</strong>;
     - a:visited {color:pink;}
     - a:hover {color:yellow;}
     - a:active {color:blue;}
-<italic>for being able to see all the actions active. In here, the link will be in black as default and it will become yellow when there is a mouse hovering over it. While it is being clicking down, the color will be blue and it will turn to pink when it is clicked once. </italic>
+_for being able to see all the actions active. In here, the link will be in black as default and it will become yellow when there is a mouse hovering over it. While it is being clicking down, the color will be blue and it will turn to pink when it is clicked once._ 
 
 
