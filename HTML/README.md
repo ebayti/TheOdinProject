@@ -48,11 +48,9 @@ HTML elements have <strong> 3 parts</strong>;
 #### Some rule of thumbs
 - when creating a webpage, it is a rule of thumb to name your html file as index.html 
 - do not use `<b>` and `<i>`, use `<strong>` and `<em>` instead. 
-- always create a folder for your;
-<ul> 
-<li>images</li>
-<li>create a css folder</li>
-<li>create a javascript folder</li>
-</ul>
+- always create a folder for your:
+    - images
+    - create a css folder
+    - create a javascript folder<
 - use lowercase sytnax for all the folders,files and scripts.
-- always avoid using space, you can use "-" instead.
+- always avoid using space, you can use "-" instead
