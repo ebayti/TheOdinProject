@@ -44,3 +44,7 @@ HTML elements have <strong> 3 parts</strong>;
           <li>content</li>
           <li>closing tag</li>
         </ul>
+
+#### Some rule of thumbs
+- when creating a webpage, it is a rule of thumb to name your html file as index.html 
+- do not use `<b>` and `<i>`, use `<strong>` and `<em>` instead. 
