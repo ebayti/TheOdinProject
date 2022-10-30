@@ -32,7 +32,7 @@
  `<`: closing tag --> indicates the end of a HTML element.
  - The keywords, or letters express the type of the elements.
 
- For example, `<p> this is a paragraf </p>` 
+ <it> For example </it>, `<p> this is a paragraf </p>` 
 
  - Not all HTML elements have closing tags. Some of them are self-closing such as `<br>` and `<img>`.
 
@@ -48,9 +48,11 @@ HTML elements have <strong> 3 parts</strong>;
 #### Some rule of thumbs
 - when creating a webpage, it is a rule of thumb to name your html file as index.html 
 - do not use `<b>` and `<i>`, use `<strong>` and `<em>` instead. 
-- always create a folder for your:
- - images
- - create a css folder
- - create a javascript folder<
+- always create a folder for your;
+<ul> 
+<li>images</li>
+<li>create a css folder</li>
+<li>create a javascript folder</li>
+</ul>
 - use lowercase sytnax for all the folders,files and scripts.
-- always avoid using space, you can use "-" instead
+- always avoid using space, you can use "-" instead.
