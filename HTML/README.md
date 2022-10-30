@@ -53,4 +53,7 @@ HTML elements have <strong> 3 parts</strong>;
     - create a css folder
     - create a javascript folder<
 - use lowercase sytnax for all the folders,files and scripts.
-- always avoid using space, you can use "-" instead
+- always avoid using space, you can use "-" instead.
+- Divs are better as the main frame, since they are like the building blocks. Spans can be used for the sake of styling.
+- classes (.class) are more general.
+- ids  (#id) are more unique
