@@ -1,0 +1,29 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color:darkkhaki;
+}
+
+div {
+    background-color: peru;
+    width: 500px;
+
+}
+
+span {
+    background-color: violet;
+    color:yellowgreen;
+    font: bolder;
+}
+
+.tldr {
+    font-size: 76px;
+    color:red;
+}
+
+#topdiv {
+    background-color: blue;
+    color:white;
+}
