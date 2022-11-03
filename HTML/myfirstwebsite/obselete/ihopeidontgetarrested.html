@@ -1,74 +1,113 @@
 <!DOCTYPE html>
 
 <html lang="tr">
-  <head>
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Legacy Roof Candiate</title>
-    <!-- İslam yeşili #009900 -->
-    <style>
-        section, h1, footer {
-          text-align: center;
-        }
-        body {
-            background-color: #009900; 
-        }
-      </style>
-  </head>
-  <body>
-    <main>
-      <h1>Çatı Aday</h1>
-      <section>
-        <h2>Ekmeleddin İhsanoğlu Fotişkoları</h2>
-        <!-- TODO: Add link to cat photos -->
-        <p>Çatı adayımızın fotişkolarına <a target="_blank" href="https://www.google.com/search?q=ekmeleddin+ihsano%C4%9Flu&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj-5rO4qYb7AhXgQ_EDHcoSCiUQ_AUoAXoECAIQAw&biw=1920&bih=925">buradan</a> ulaşabilirsiniz.</p>
-        <a href="https://ekremishaloğlu.com"><img src="https://www.armanayse.com/wp-content/uploads/2016/05/EKMELEDDIN-IHSANOGLU-1.jpg" alt="Zillet ittifakının çatı adayı"></a>
-      </section>
-      <section>
-        <h2>Çatı adayımızın önemli özellikleri</h2>
-        <h3>Ekmeleddin bey'in yetkinlikleri:</h3>
-        <ul>
-          <li>PhD </li>
-          <li>Kuzey Afrika tecrübesi</li>
-        </ul>
-        <figure>
-          <img src="https://beautifulglobal.com/wp-content/uploads/2015/05/Most-Mysterious-Places-Country-Egypt-Beautiful-Global-3.jpg" alt="Kuzey Afrika ülkesi.">
-          <figcaption>Ekmeleddin <em>Mısır'da</em> okudu.</figcaption>  
-        </figure>
-        <h3>Ekmeleddin bey'in bilmediği 3 şey:</h3>
-        <ol>
-          <li>İstiklal Marşı</li>
-          <li>Ekmek fiyatı</li>
-          <li>Nonlinear dynamical modelling of high frequency electrostatic drift waves using fluid theoretical approach in magnetized plasma</li>
-        </ol>
-        <figure>
-          <img src="http://2.bp.blogspot.com/-8EbjwChoMbA/Vgm3xXfwHBI/AAAAAAAAbKY/AjXzas5DVfE/s1600/ekmek.jpg" alt="Five cats looking around a field.">
-          <figcaption>Ekmeleddin İhsanoğlu <strong>ekmek fiyatından</strong> bihaber.</figcaption>  
-        </figure>
-      </section>
-      <section>
-        <h2>Seçim Formu</h2>
-        <form action="https://ebbay.com/submit-seçim-sonucu">
-          <fieldset>
-            <legend id="hakan">Ekmeleddin Ihsanoğluna oy verecek misiniz?</legend>
-            <label><input id="hayir" type="radio" name="oy" value="hayir" checked> Hayır</label>
-            <label><input id="ekmekicin" type="radio" name="oy" value="ekmekicin"> EKMEK İÇİN EKMELEDDİN</label>
-          </fieldset>
-          <fieldset>
-            <legend>Ekmeleddin İhsanoğlu'nun hangi özelliğini beğeniyorsunuz?</legend>
-            <input id="phd" type="checkbox" name="properties" value="phd" checked> <label for="phd">PhD'li olması</label>
-            <input id="dindar" type="checkbox" name="properties" value="amin"> <label for="dindar">Dindar olması</label>
-            <input id="keto" type="checkbox" name="properties" value="energetic"> <label for="keto">Ketojonik diyet uygulaması</label>
-          </fieldset>
-          <input type="text" name="gorus" placeholder="Ekmeleddin'e söylemek istedikleriniz" required>
-          <button type="submit">Ekmeleddin'e yolla!</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>
-        Copyrighted material by oldZilletIttifaki - <a href="https://tr.wikipedia.org/wiki/Millet_%C4%B0ttifak%C4%B1">zillet.org</a>
-      </p>
-    </footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legacy Roof Candiate</title>
+
+  <!-- İslam yeşili #009900 -->
+  <style>
+    section,
+    h1,
+    footer {
+      text-align: center;
+    }
+
+    body {
+      background-color: #009900;
+    }
+
+    ol {
+      padding: 50px;
+      list-style-position: inside;
+      background-color: black;
+      padding: auto;
+      color: peru;
+      margin: auto;
+      width: 260px;
+    }
+
+    #uzgunfoto {
+      size-adjust: 150px;
+      width: 400px;
+      height: 150px;
+      border: 5px solid red;
+      background-color: lightgreen;
+      object-fit: none;
+      object-position: left;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <main>
+    <h1>Çatı Aday</h1>
+    <section>
+      <h2>Ekmeleddin İhsanoğlu Fotişkoları</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>Çatı adayımızın fotişkolarına <a target="_blank"
+          href="https://www.google.com/search?q=ekmeleddin+ihsano%C4%9Flu&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj-5rO4qYb7AhXgQ_EDHcoSCiUQ_AUoAXoECAIQAw&biw=1920&bih=925">buradan</a>
+        ulaşabilirsiniz.</p>
+      <a href="https://ekremishaloğlu.com"><img
+          src="https://www.armanayse.com/wp-content/uploads/2016/05/EKMELEDDIN-IHSANOGLU-1.jpg"
+          alt="Zillet ittifakının çatı adayı"></a>
+    </section>
+    <section>
+      <h2>Çatı adayımızın önemli özellikleri</h2>
+      <h3>Ekmeleddin bey'in yetkinlikleri:</h3>
+      <ul>
+        <li>PhD </li>
+        <li>Kuzey Afrika tecrübesi</li>
+      </ul>
+      <figure>
+        <img
+          src="https://beautifulglobal.com/wp-content/uploads/2015/05/Most-Mysterious-Places-Country-Egypt-Beautiful-Global-3.jpg"
+          alt="Kuzey Afrika ülkesi.">
+        <figcaption>Ekmeleddin <em>Mısır'da</em> okudu.</figcaption>
+      </figure>
+      <h3>Ekmeleddin bey'in bilmediği 3 şey:</h3>
+      <img id="uzgunfoto" src="https://www.internethaber.com/images/other/ekmeleddin-ihsanoglu.20140616150837.jpg">
+      <ol>
+        <li>İstiklal Marşı</li>
+        <li>Ekmek fiyatı</li>
+        <li>Nonlinear dynamical modelling </li>
+      </ol>
+      <figure>
+        <img src="http://2.bp.blogspot.com/-8EbjwChoMbA/Vgm3xXfwHBI/AAAAAAAAbKY/AjXzas5DVfE/s1600/ekmek.jpg"
+          alt="Five cats looking around a field.">
+        <figcaption>Ekmeleddin İhsanoğlu <strong>ekmek fiyatından</strong> bihaber.</figcaption>
+      </figure>
+    </section>
+    <section>
+      <h2>Seçim Formu</h2>
+      <form action="https://ebbay.com/submit-seçim-sonucu">
+        <fieldset>
+          <legend id="hakan">Ekmeleddin Ihsanoğluna oy verecek misiniz?</legend>
+          <label><input id="hayir" type="radio" name="oy" value="hayir" checked> Hayır</label>
+          <label><input id="ekmekicin" type="radio" name="oy" value="ekmekicin"> EKMEK İÇİN EKMELEDDİN</label>
+        </fieldset>
+        <fieldset>
+          <legend>Ekmeleddin İhsanoğlu'nun hangi özelliğini beğeniyorsunuz?</legend>
+          <input id="phd" type="checkbox" name="properties" value="phd" checked> <label for="phd">PhD'li olması</label>
+          <input id="dindar" type="checkbox" name="properties" value="amin"> <label for="dindar">Dindar olması</label>
+          <input id="keto" type="checkbox" name="properties" value="energetic"> <label for="keto">Ketojonik diyet
+            uygulaması</label>
+        </fieldset>
+        <input type="text" name="gorus" placeholder="Ekmeleddin'e söylemek istedikleriniz" required>
+        <button type="submit">Ekmeleddin'e yolla!</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>
+      Copyrighted material by oldZilletIttifaki - <a
+        href="https://tr.wikipedia.org/wiki/Millet_%C4%B0ttifak%C4%B1">zillet.org</a>
+    </p>
+  </footer>
+</body>
+
 </html>
