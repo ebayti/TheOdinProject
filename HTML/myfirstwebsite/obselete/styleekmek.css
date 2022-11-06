@@ -1,0 +1,43 @@
+
+section,
+h1,
+footer {
+  text-align: center;
+}
+
+body {
+  background-color: #009900;
+}
+
+ol {
+  padding: 50px;
+  list-style-position: inside;
+  background-color: black;
+  padding: auto;
+  color: peru;
+  margin: auto;
+  width: 30%;
+  align : left;
+}
+
+#uzgunfoto {
+  height: auto%;
+  width: 50%;
+  align-self: left;
+}
+
+#misirfot {
+  height: auto%;
+  max-width: 50%;
+  object-position: 25px;
+  object-position: 50%;
+}
+
+#ekmekfot {
+  height: auto%;
+  max-width: 50%;
+}
+
+.bilinmeyen {
+  display: flex;
+}
